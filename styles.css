@@ -1,0 +1,20 @@
+body {
+    padding-left:15px;
+    margin-left:0;
+    font-family:'Verdana', 'Geneva', sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    float: left;
+  }
+
+  address {
+    padding-top: 20px;
+    float: right;
+  }
+
+  .photo {
+    clear: both;
+  }
+}
